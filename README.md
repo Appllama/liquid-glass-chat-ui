@@ -15,7 +15,7 @@
   <img alt="React Native 0.86" src="https://img.shields.io/badge/React_Native-0.86-61DAFB?logo=react&logoColor=111827">
   <img alt="iOS 26" src="https://img.shields.io/badge/iOS-26-17191B?logo=apple&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white">
-  <a href="./LICENSE"><img alt="GPL-3.0" src="https://img.shields.io/badge/Code-GPL--3.0-F2C94C"></a>
+  <a href="./LICENSE"><img alt="MIT" src="https://img.shields.io/badge/Code-MIT-F2C94C"></a>
 </p>
 <p align="center">
   <a href="#the-2-cookbooks">Explore cookbooks</a> ·
@@ -222,13 +222,15 @@ Native flows cover both cookbooks. Optional compact-layout checks are in `script
 
 **Can I use one cookbook?** Yes. Each implementation is self-contained under its own source and asset folder. Follow its integration prompt and retain the required providers and route adapters.
 
+**Can I use the code in a commercial or closed-source iOS app?** Yes. The original code is MIT-licensed. Retain the copyright and permission notice, and follow the separate dependency licenses and asset terms described in [NOTICE.md](./NOTICE.md).
+
 ## Contributing
 
 Keep each cookbook independent, retain light/dark and accessibility behavior, document motion changes, and include provenance for new artwork. Run `npm run verify` and the simulator flows for changes to interaction. Keep generated native projects, agent files, credentials, caches, and raw recordings out of commits.
 
 ## License and notice
 
-Original code is [GPL-3.0-only](./LICENSE). See [NOTICE.md](./NOTICE.md) and the [asset provenance](./docs/ASSET_PROVENANCE.md) for attribution and asset details. This is an independent UI study by Appllama, not an official Wabi or Apple product.
+Original code is [MIT-licensed](./LICENSE). See [NOTICE.md](./NOTICE.md) and the [asset provenance](./docs/ASSET_PROVENANCE.md) for attribution and asset details. This is an independent UI study by Appllama, not an official Wabi or Apple product.
 
 ## An open-source creation by Appllama
 

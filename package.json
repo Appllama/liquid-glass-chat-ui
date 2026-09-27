@@ -61,7 +61,7 @@
     }
   },
   "description": "Two native Liquid Glass chat UI cookbooks for React Native and Expo: Fable and Astra.",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "author": {
     "name": "Appllama",
     "url": "https://appllama.io"
