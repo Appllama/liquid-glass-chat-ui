@@ -1,0 +1,192 @@
+[
+  {
+    "path": "assets/cookbooks/astra/photos/coast.png",
+    "bytes": 3139489,
+    "sha256": "0865a5de9bb7f01597ffa08a665596dd6df8a441075cf244dd04867ed9ecc033"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/0.png",
+    "bytes": 255933,
+    "sha256": "d1fd8aee8d3d6959ade29ea82ce0c6317c13863f84fa160713aa31887b9e442b"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/1.png",
+    "bytes": 249110,
+    "sha256": "4f1c0930fb4978b29758eadf0f29d888b8f440ad39fbc8ef7eab1acacafd6354"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/2.png",
+    "bytes": 238262,
+    "sha256": "0f6dc20eb3923b708e93bfe63a1fd82194a06bace1cdaba113cafdbe4e8b2f0f"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/3.png",
+    "bytes": 266434,
+    "sha256": "154c24a853291dae9b217ea101999929d240ccb3c15ad4bccb14e02ae38b7832"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/4.png",
+    "bytes": 281644,
+    "sha256": "1eff1039a6869e9fc5b17e321b255448c3584a5505b6a7de289dd430b061e265"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/5.png",
+    "bytes": 293295,
+    "sha256": "796adc83b2b640c247489f35c4767abe11e465c7ab1df10ef1c565eb5fcf2364"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/6.png",
+    "bytes": 240524,
+    "sha256": "e1d0d4610b3667124230f128cfe29967d606fd8c4d8d3038cefe12f284b21346"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/7.png",
+    "bytes": 256282,
+    "sha256": "42070b2c6e981f3f5552172350646794604f5dee789d5810765ab0ed1317bcc6"
+  },
+  {
+    "path": "assets/cookbooks/astra/portraits/8.png",
+    "bytes": 255907,
+    "sha256": "4f6f924d0db68477b9658ffbc3a3db16aba7a88aeaaa70f15af53e0cc7c1c11c"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/amara.jpg",
+    "bytes": 34383,
+    "sha256": "bc1fcb9fe58ecf744a3cbcfed00578af332fe329fbb16a91a57ccbd39dee97f7"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/elena.jpg",
+    "bytes": 42600,
+    "sha256": "f520a92d1abbdb8355da68716b250f73b8f2c1391c8dc3ce0bf2c6ea8c64b716"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/elias.jpg",
+    "bytes": 40390,
+    "sha256": "d2131de13fadba73090fb2510948026fdef07ce198d555f1aa798157e058bfcf"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/fable.jpg",
+    "bytes": 29440,
+    "sha256": "9e0d1ae3394e59f4025fe524edee1ec014022ca7e03d7672dfdb7c50363ce859"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/jonas.jpg",
+    "bytes": 43318,
+    "sha256": "93b37c9f2d566bdf11bfabd639d21e23797c8096326412ae0adfd016af451150"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/kenji.jpg",
+    "bytes": 35116,
+    "sha256": "2282767f3e5356bae9e31eb4f29a858dc9ce9f2692d4bca07f44d9dff98f4c91"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/lucas.jpg",
+    "bytes": 39479,
+    "sha256": "90429be98e5a2a559d83862b47a6b326e49a26bcc282e29c2a24c7f9dcaf0c30"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/mara.jpg",
+    "bytes": 41983,
+    "sha256": "cc04c89b23c2e605b7dfc17bb04625f773266df3a08339ed39e3af66d8d2156e"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/me.jpg",
+    "bytes": 40134,
+    "sha256": "6f333550826d837d0d7ba16951b33d7161b1a9a3b4e56a71eedc9bd2fdf9b30a"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/nia.jpg",
+    "bytes": 37836,
+    "sha256": "01f4e1092bc0738b20976befc2c343392c57954b2a9286eb728ee2e8b7e3d923"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/rafael.jpg",
+    "bytes": 36736,
+    "sha256": "0927a7f33ce3f21493e38244195bd842d2da91c86afe036668753f7a56052fb7"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/sofia.jpg",
+    "bytes": 44610,
+    "sha256": "dd01ee037adc97994c893ece11c2281448f97ca5eb61a280368d3c95b1859765"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/theo.jpg",
+    "bytes": 39811,
+    "sha256": "8c1329d5c8c28f68b4458ba8625f8641019853f9947377b5a74579323cf2a48e"
+  },
+  {
+    "path": "assets/cookbooks/fable/avatars/zara.jpg",
+    "bytes": 37689,
+    "sha256": "e9fe753acf51dd0e57b7197152b9664fbbec29a09dd567c419d6116840c3708b"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/amara.jpg",
+    "bytes": 235042,
+    "sha256": "c8352ece9c6e9fc5048d1e0dc3efd483e713fa654c1ad1610d04a48c5a9e7196"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/elena.jpg",
+    "bytes": 273327,
+    "sha256": "3b4d951bec2abb99bf622495e5234c302188ed76488c5ccc216fea6950f52899"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/elias.jpg",
+    "bytes": 276635,
+    "sha256": "5a15980e0a30e0a2436d0e68f2470794012663d1d5d254fb101ab44db9f68acf"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/jonas.jpg",
+    "bytes": 311067,
+    "sha256": "f9bdb0aa1e6ff623d40fd00fe4c85c952af25c235a68ed86b3b7336a5262bebe"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/kenji.jpg",
+    "bytes": 286844,
+    "sha256": "1e0dc0bd76af949417fda3bbf33471d4652616daf922db318bd9b319ec2e1f5d"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/lucas.jpg",
+    "bytes": 338525,
+    "sha256": "5a65357345b1c1b0cdd5727feca0bd56ac4143451acbc0c00a0e7e419e0d9ffa"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/mara.jpg",
+    "bytes": 306353,
+    "sha256": "3f283d845c0b1904deadb842093f5353c31fb90885b467bec4d53f4ba45b311d"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/me.jpg",
+    "bytes": 407177,
+    "sha256": "52766fc821e9ba28c003f3af901cd15a393421f58dd37ae81b00e777c4f1e6ac"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/nia.jpg",
+    "bytes": 215810,
+    "sha256": "2a72b5aa65f3264663b0c7849cf9e03764ff7564aa32d659f64ba697bedc09df"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/rafael.jpg",
+    "bytes": 271598,
+    "sha256": "a074872146206b6a57da7b9284d4bc2e31b3c049afb75c126bde89d6e56c0f86"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/sofia.jpg",
+    "bytes": 296323,
+    "sha256": "e3ccf458f5028bd026d37980e7c96e8f858b6437416f1a6ca233ef2c7b91cb22"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/theo.jpg",
+    "bytes": 237558,
+    "sha256": "d9eae441f0faa7c5609ef173d57ae3193e983ae1b265cf8fd6f0e5955760db02"
+  },
+  {
+    "path": "assets/cookbooks/fable/stories/zara.jpg",
+    "bytes": 321256,
+    "sha256": "ca3363d397aa9e8a8e37c7f6d4a76b81f88b81c0b1feb423f8905942f0e45300"
+  },
+  {
+    "path": "assets/images/icon.png",
+    "bytes": 88042,
+    "sha256": "bc5c19ee61eb13932ac13eb820bc4685793910135e51810bf8da07972264631c"
+  }
+]

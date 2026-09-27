@@ -1,0 +1,87 @@
+appId: io.appllama.liquidglasschat
+name: Cookbook 1 (Fable)
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: open-fable
+- assertVisible: Chats
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: fable-inbox
+- tapOn: Show stories
+- assertVisible: "Mara Lindqvist's story"
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: fable-stories
+- swipe:
+    start: 85%, 23%
+    end: 25%, 23%
+    duration: 650
+- swipe:
+    start: 25%, 23%
+    end: 85%, 23%
+    duration: 650
+- tapOn:
+    text: "Mara Lindqvist's story"
+    waitToSettleTimeoutMs: 100
+- assertVisible: Close
+- extendedWaitUntil:
+    notVisible: Close
+    timeout: 12000
+- swipe:
+    start: 50%, 38%
+    end: 50%, 28%
+    duration: 650
+- tapOn:
+    id: fable-chat-mara
+- assertVisible: Back
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: fable-chat
+- tapOn: Video call
+- assertVisible: Calls are not available in this preview.
+- tapOn: OK
+- tapOn: Voice message
+- assertVisible: Voice recording is not available in this preview.
+- tapOn: OK
+- tapOn:
+    id: fable-message-input
+- inputText: See you by the lake.
+- tapOn: Send
+- assertVisible: See you by the lake.
+- swipe:
+    start: 50%, 42%
+    end: 50%, 68%
+    duration: 800
+- tapOn: Share a photo
+- tapOn: Open shared photo
+- assertVisible: Close photo
+- tapOn: Close photo
+- tapOn: Back
+- tapOn:
+    id: fable-chat-mara
+- assertVisible: See you by the lake.
+- tapOn: Back
+- tapOn: New message
+- assertVisible: Find a friend
+- tapOn: Find a friend
+- inputText: nobodyhere
+- assertVisible: No friends with that name.
+- eraseText
+- inputText: Zara
+- tapOn: Message Zara Haddad
+- assertVisible: Zara
+- assertVisible: Back
+- tapOn: Back
+- tapOn: Your profile
+- tapOn: dark appearance
+- tapOn: Close settings
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: fable-dark
+- tapOn: Your profile
+- tapOn: light appearance
+- tapOn: All cookbooks
+- assertVisible:
+    id: open-astra

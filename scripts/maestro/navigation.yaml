@@ -1,0 +1,49 @@
+appId: io.appllama.liquidglasschat
+name: Cold links and gallery navigation
+---
+- stopApp
+- openLink: liquid-glass-chat://fable/chat/mara
+- repeat:
+    while:
+      visible: "Open in .*"
+    commands:
+      - tapOn: Open
+- assertVisible: Back
+- tapOn:
+    id: fable-message-input
+- inputText: Saved across a restart.
+- tapOn: Send
+- assertVisible: Saved across a restart.
+- stopApp
+- openLink: liquid-glass-chat://fable/chat/mara
+- repeat:
+    while:
+      visible: "Open in .*"
+    commands:
+      - tapOn: Open
+- assertVisible: Saved across a restart.
+- tapOn: Back
+- assertVisible: Chats
+- openLink: liquid-glass-chat://astra/chat/missing-person
+- repeat:
+    while:
+      visible: "Open in .*"
+    commands:
+      - tapOn: Open
+- assertVisible: Conversation not found
+- tapOn: Go back
+- assertVisible:
+    id: settings
+- openLink: liquid-glass-chat://fable/chat/constructor
+- repeat:
+    while:
+      visible: "Open in .*"
+    commands:
+      - tapOn: Open
+- assertVisible: Conversation not found
+- tapOn: Go back
+- assertVisible: Chats
+- tapOn: Your profile
+- tapOn: All cookbooks
+- assertVisible:
+    id: open-astra

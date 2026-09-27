@@ -1,0 +1,88 @@
+# Keep .github/workflows/, source, assets, docs, prompts, tests, and the lockfile.
+
+# Dependencies and package caches
+node_modules/
+.npm/
+.venv/
+venv/
+
+# Expo generates the root native projects from app.json.
+/ios/
+/android/
+.expo/
+/expo-env.d.ts
+/dist/
+/web-build/
+/build/
+.metro-health-check*
+
+# Native build products and signing material
+*.app/
+*.dSYM/
+*.xcresult/
+xcuserdata/
+*.xcuserstate
+*.ipa
+*.apk
+*.aab
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keystore
+*.jks
+
+# Local environment and EAS signing credentials; sanitized examples may be shared.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+credentials.json
+
+# Research, simulator evidence, and scratch work; keep published media in assets/ or docs/.
+.research/
+.qa/
+.firecrawl/
+/tmp/
+/temp/
+
+# Test output and tool caches
+coverage/
+.nyc_output/
+.cache/
+.eslintcache
+.prettiercache
+*.tsbuildinfo
+*.log
+__pycache__/
+*.py[cod]
+
+# Local agent instructions and settings, including nested/local variants
+AGENTS.md
+AGENTS.*.md
+CLAUDE.md
+CLAUDE.*.md
+GEMINI.md
+GEMINI.*.md
+.codex/
+.claude/
+.agents/
+.cursor/
+.cursorrules
+.mcp.json
+.github/copilot-instructions.md
+
+# Editor and operating-system artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

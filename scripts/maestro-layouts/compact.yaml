@@ -1,0 +1,47 @@
+appId: io.appllama.liquidglasschat
+---
+- launchApp:
+    clearState: true
+- takeScreenshot: compact-gallery
+- tapOn:
+    id: open-fable
+- assertVisible: Chats
+- takeScreenshot: compact-fable-inbox
+- tapOn: Show stories
+- takeScreenshot: compact-fable-stories
+- swipe:
+    start: 50%, 38%
+    end: 50%, 28%
+    duration: 650
+- tapOn:
+    id: fable-chat-mara
+- assertVisible: Back
+- takeScreenshot: compact-fable-chat
+- tapOn:
+    id: fable-message-input
+- inputText: A compact hello.
+- tapOn: Send
+- assertVisible: A compact hello.
+- takeScreenshot: compact-fable-keyboard
+- tapOn: Back
+- tapOn: Your profile
+- tapOn: All cookbooks
+- tapOn:
+    id: open-astra
+- takeScreenshot: compact-astra-inbox
+- tapOn:
+    id: toggle-circle
+- assertVisible: Collapse your circle
+- takeScreenshot: compact-astra-circle
+- tapOn:
+    id: circle-mira
+- assertVisible:
+    id: chat-back
+- takeScreenshot: compact-astra-chat
+- tapOn:
+    id: message-input
+- inputText: A compact hello.
+- tapOn:
+    id: send
+- assertVisible: A compact hello.
+- takeScreenshot: compact-astra-keyboard

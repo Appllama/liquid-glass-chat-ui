@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Liquid Glass Chat",
+    "slug": "liquid-glass-chat-ui",
+    "scheme": "liquid-glass-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "io.appllama.liquidglasschat",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CADisableMinimumFrameDurationOnPhone": true
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-image",
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F2F2F2",
+          "dark": {
+            "backgroundColor": "#171819"
+          }
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "26.0"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "platforms": ["ios"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

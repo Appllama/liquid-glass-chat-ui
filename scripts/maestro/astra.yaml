@@ -1,0 +1,132 @@
+appId: io.appllama.liquidglasschat
+name: Cookbook 2 (Astra)
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: open-astra
+- assertVisible:
+    id: toggle-circle
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: astra-inbox
+- tapOn:
+    id: toggle-circle
+- assertVisible: Collapse your circle
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: astra-circle
+- swipe:
+    start: 85%, 23%
+    end: 20%, 23%
+    duration: 650
+- swipe:
+    start: 20%, 23%
+    end: 85%, 23%
+    duration: 650
+- tapOn:
+    id: circle-mira
+- assertVisible:
+    id: chat-back
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: astra-chat
+- tapOn:
+    id: message-m3
+- assertVisible:
+    id: close-photo
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: astra-photo
+- tapOn:
+    id: close-photo
+- longPressOn:
+    id: message-m5
+- tapOn:
+    id: heart-reaction
+- assertVisible: Remove heart reaction
+- tapOn: Remove heart reaction
+- tapOn:
+    id: message-input
+- inputText: Saturday at ten.
+- tapOn:
+    id: send
+- assertVisible: Saturday at ten.
+- stopApp
+- openLink: liquid-glass-chat://astra/chat/mira
+- repeat:
+    while:
+      visible: "Open in .*"
+    commands:
+      - tapOn: Open
+- assertVisible: Saturday at ten.
+- tapOn:
+    id: attachments
+- tapOn:
+    id: send-photo
+- tapOn:
+    id: chat-options
+- tapOn: Mute conversation
+- tapOn:
+    id: chat-options
+- assertVisible: Unmute conversation
+- tapOn: Cancel
+- tapOn:
+    id: chat-back
+- tapOn:
+    id: filter-Groups
+- assertVisible:
+    id: chat-weekend
+- assertNotVisible:
+    id: chat-mira
+- tapOn:
+    id: chat-weekend
+- assertVisible: The Sunday Club, contact details
+- tapOn:
+    id: chat-back
+- tapOn:
+    id: filter-Unread
+- assertNotVisible:
+    id: chat-mira
+- assertVisible:
+    id: chat-zora
+- tapOn:
+    id: filter-All
+- tapOn:
+    id: search
+- inputText: nobodyhere
+- assertVisible: No conversations found
+- tapOn: Clear search
+- inputText: Mira
+- assertVisible:
+    id: chat-mira
+- tapOn:
+    id: chat-mira
+- assertVisible: Saturday at ten.
+- tapOn:
+    id: chat-back
+- tapOn:
+    id: compose
+- tapOn: Find a friend
+- inputText: Asha
+- tapOn:
+    id: compose-asha
+- assertVisible: Asha Rao, contact details
+- tapOn:
+    id: chat-back
+- tapOn:
+    id: settings
+- tapOn:
+    id: theme-dark
+- tapOn:
+    id: close-settings
+- waitForAnimationToEnd:
+    timeout: 2000
+- takeScreenshot: astra-dark
+- tapOn:
+    id: settings
+- tapOn:
+    id: theme-light
+- tapOn: All cookbooks
+- assertVisible:
+    id: open-fable

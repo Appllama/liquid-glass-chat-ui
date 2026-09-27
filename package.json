@@ -1,0 +1,87 @@
+{
+  "name": "liquid-glass-chat-ui",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@gluestack-ui/button": "^1.0.14",
+    "@shopify/flash-list": "2.0.2",
+    "@shopify/react-native-skia": "2.6.2",
+    "expo": "~57.0.24",
+    "expo-asset": "~57.0.18",
+    "expo-blur": "~57.0.3",
+    "expo-build-properties": "~57.0.21",
+    "expo-constants": "~57.0.19",
+    "expo-font": "~57.0.4",
+    "expo-glass-effect": "~57.0.3",
+    "expo-haptics": "~57.0.3",
+    "expo-image": "~57.0.5",
+    "expo-linear-gradient": "~57.0.2",
+    "expo-linking": "~57.0.10",
+    "expo-router": "~57.0.22",
+    "expo-splash-screen": "~57.0.9",
+    "expo-status-bar": "~57.0.1",
+    "expo-symbols": "~57.0.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-keyboard-controller": "1.21.9",
+    "react-native-mmkv": "^4.3.2",
+    "react-native-nitro-modules": "^0.37.1",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.10.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "babel-preset-expo": "^57.0.12",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2",
+    "prettier": "^3.9.8",
+    "typescript": "~6.0.3",
+    "decode-uri-component": "file:packages/decode-uri-component-compat"
+  },
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "ios:release": "expo run:ios --configuration Release",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs tests/*.test.cjs",
+    "verify": "npm run typecheck && npm run lint && npm test",
+    "test:ios": "bash scripts/test-ios.sh"
+  },
+  "private": true,
+  "reanimated": {
+    "staticFeatureFlags": {
+      "IOS_SYNCHRONOUSLY_UPDATE_UI_PROPS": true
+    }
+  },
+  "description": "Two native Liquid Glass chat UI cookbooks for React Native and Expo: Fable and Astra.",
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Appllama",
+    "url": "https://appllama.io"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "liquid-glass",
+    "chat-ui",
+    "skia",
+    "reanimated",
+    "cookbook"
+  ],
+  "overrides": {
+    "decode-uri-component": "$decode-uri-component",
+    "xcode": {
+      "uuid": "11.1.1"
+    }
+  }
+}
